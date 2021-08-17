@@ -1,0 +1,281 @@
+                *,
+                .row {
+                    padding: 0;
+                    margin: 0;
+                    box-sizing: border-box;
+                }
+                
+                html {
+                    scroll-behavior: smooth;
+                }
+                
+                body {
+                    background-color: #c5c5c5;
+                    /* height: 100%; */
+                }
+                
+                .container {
+                    padding: 0;
+                }
+                
+                .main {
+                    /* height: 90vh; */
+                    position: relative;
+                    background-color: #fff;
+                    top: 4rem;
+                }
+                
+                header {
+                    background-color: #2D3236;
+                    padding: 30px 2rem;
+                    color: #FAFBFD;
+                }
+                
+                .profile-picture img {
+                    width: 110px;
+                    height: 110px;
+                    border-radius: 50%;
+                }
+                
+                .zuri-link a {
+                    color: #47A0D8;
+                    font-size: large;
+                    color: #fff;
+                }
+                
+                .links li {
+                    list-style-type: none;
+                    margin-bottom: .5rem;
+                }
+                
+                .links i {
+                    display: inline-block;
+                    margin-right: 1rem;
+                }
+                
+                .links li a {
+                    color: #fff;
+                    /* text-decoration: underline; */
+                }
+                
+                .blue-color {
+                    color: #47A0D8;
+                }
+                
+                .aside {
+                    background-color: #E1E0DE;
+                    padding: 2rem 1rem 2rem 2rem;
+                    text-align: right;
+                }
+                
+                .resume-headers {
+                    padding-left: 1rem;
+                }
+                
+                .gap-10 {
+                    gap: 10px;
+                }
+                
+                .icon-holder {
+                    width: 35px;
+                    height: 35px;
+                    background-color: #47A0D8;
+                    text-align: center;
+                    border-radius: 50%;
+                    padding: 1rem;
+                }
+                
+                .aside .fa {
+                    position: relative;
+                    top: -10px;
+                    left: -10.5px;
+                    font-size: larger;
+                }
+                
+                .aside .fa-envelope {
+                    top: -12px;
+                    left: -9px;
+                }
+                
+                .aside .fa-history {
+                    top: -10px;
+                    left: -7px;
+                }
+                
+                .internship p {
+                    margin-bottom: 0;
+                    color: #47A0D8;
+                    font-weight: 500;
+                    font-size: medium;
+                }
+                
+                .internship p a {
+                    display: inline-block;
+                    margin-bottom: 1rem;
+                    color: #47A0D8;
+                    font-weight: 500;
+                    font-size: large;
+                    text-decoration: underline;
+                }
+                
+                .internship .date {
+                    font-size: medium;
+                }
+                
+                .col-md-9 {
+                    padding: 2.5rem 3rem;
+                }
+                
+                .col-md-9 h5 {
+                    color: #47A0D8;
+                    font-size: larger;
+                }
+                
+                .experience-details {
+                    border-top: 4px solid #2D3236;
+                    border-bottom: 4px solid #2D3236;
+                    padding: 1.5rem 0;
+                }
+                
+                .experience-details p,
+                .experience-details li {
+                    font-size: larger;
+                }
+                
+                .experience-details li {
+                    /* list-style: none; */
+                    margin: .5rem 2rem;
+                }
+                
+                .education-details {
+                    border-bottom: 4px solid #2D3236;
+                    padding: 2.3rem 0;
+                }
+                
+                .education-details p {
+                    font-size: larger;
+                }
+                
+                .education-details li {
+                    font-size: large;
+                    margin: .5rem 2rem;
+                    list-style: none;
+                }
+                
+                .skills-section {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                }
+                
+                .skills-section h6 {
+                    color: #47A0D8;
+                    font-size: larger;
+                }
+                
+                .skills-section li {
+                    font-size: larger;
+                    margin-bottom: .4rem;
+                }
+                
+                .technical-skills li {
+                    list-style: none;
+                }
+                
+                .social-links a {
+                    font-size: larger;
+                    display: inline-block;
+                    width: 40px;
+                    background-color: #47A0D8;
+                    border-radius: 50%;
+                    padding: .3rem .8rem;
+                    color: #fff;
+                    margin-top: 2rem;
+                    margin-right: .5rem;
+                }
+                
+                .social-links a:hover {
+                    background-color: transparent;
+                    border: 1px solid #47A0D8;
+                    transform: scale(1.1);
+                }
+                /* .header-links40px */
+                /* MEDIA QUERIES */
+                
+                @media(max-width: 992px) {
+                    .profile-picture img {
+                        width: 80px;
+                        height: 80px;
+                    }
+                    .header-links {
+                        display: none;
+                    }
+                    h2 {
+                        font-size: large;
+                    }
+                    h4 {
+                        font-size: medium;
+                    }
+                    header {
+                        background-color: #2D3236;
+                        padding: 10px 1rem;
+                        color: #FAFBFD;
+                    }
+                    .profile-picture img {
+                        width: 40px;
+                        height: 40px;
+                    }
+                    h2 {
+                        font-size: medium;
+                        text-align: right;
+                    }
+                    h4 {
+                        font-size: medium;
+                    }
+                    .aside {
+                        /* padding: 0; */
+                        padding-left: 0;
+                    }
+                    aside h5 {
+                        font-size: 1rem;
+                    }
+                    .text-align-left {
+                        text-align: left;
+                        padding-left: 1rem;
+                    }
+                }
+                
+                @media(max-width: 468px) {
+                    .main {
+                        top: 0;
+                    }
+                    .col-md-9 {
+                        padding: 0;
+                        padding-left: 1rem;
+                    }
+                    .skills-section {
+                        grid-template-columns: 1fr;
+                    }
+                    .skills-section li {
+                        list-style: none;
+                    }
+                    .technical-skills {
+                        text-align: left !important;
+                    }
+                    .col-md-9 h5 {
+                        font-size: medium;
+                    }
+                    .experience-details p,
+                    .experience-details li {
+                        font-size: medium;
+                    }
+                    .education-details p {
+                        font-size: medium;
+                    }
+                    .education-details li {
+                        font-size: medium;
+                    }
+                    .skills-section li {
+                        font-size: medium;
+                        margin-bottom: .4rem;
+                    }
+                }
